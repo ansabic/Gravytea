@@ -1,7 +1,7 @@
 import 'dart:developer';
 import 'dart:math';
 
-import 'package:gravytea/model/vector.dart';
+import 'package:Gravytea/model/vector.dart';
 
 class Velocity extends Vector {
   Velocity(double x, double y) : super(x: x, y: y);

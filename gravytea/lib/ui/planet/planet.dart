@@ -1,8 +1,8 @@
+import 'package:Gravytea/common/constants.dart';
+import 'package:Gravytea/model/planet_dto.dart';
+import 'package:Gravytea/ui/space/space_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gravytea/common/constants.dart';
-import 'package:gravytea/model/planet_dto.dart';
-import 'package:gravytea/ui/space/space_bloc.dart';
 
 import 'planet_bloc.dart';
 

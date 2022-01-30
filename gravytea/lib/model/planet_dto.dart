@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:gravytea/model/velocity.dart';
+import 'package:Gravytea/model/velocity.dart';
 
 class PlanetDTO {
   double mass;

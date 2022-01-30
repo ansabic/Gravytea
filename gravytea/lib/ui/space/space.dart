@@ -1,8 +1,8 @@
+import 'package:Gravytea/ui/bottom_panel/bottom_panel.dart';
+import 'package:Gravytea/ui/planet/planet.dart';
+import 'package:Gravytea/ui/space/space_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gravytea/ui/bottom_panel/bottom_panel.dart';
-import 'package:gravytea/ui/planet/planet.dart';
-import 'package:gravytea/ui/space/space_bloc.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 
 class Space extends StatelessWidget {

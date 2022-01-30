@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'dart:math';
 
+import 'package:Gravytea/model/planet_dto.dart';
+import 'package:Gravytea/model/velocity.dart' as velocity;
+import 'package:Gravytea/physics/physics.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:gravytea/model/planet_dto.dart';
-import 'package:gravytea/model/velocity.dart' as velocity;
-import 'package:gravytea/physics/physics.dart';
 
 part 'space_event.dart';
 part 'space_state.dart';

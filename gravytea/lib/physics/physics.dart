@@ -1,10 +1,10 @@
 import 'dart:math';
 
+import 'package:Gravytea/common/constants.dart';
+import 'package:Gravytea/model/acceleration.dart';
+import 'package:Gravytea/model/planet_dto.dart';
+import 'package:Gravytea/model/velocity.dart' as velocity;
 import 'package:flutter/material.dart';
-import 'package:gravytea/common/constants.dart';
-import 'package:gravytea/model/acceleration.dart';
-import 'package:gravytea/model/planet_dto.dart';
-import 'package:gravytea/model/velocity.dart' as velocity;
 
 class Physics {
   static Acceleration gravityAcceleration(PlanetDTO planet1, PlanetDTO planet2, double forceFactor,
@@ -12,7 +12,7 @@ class Physics {
     double distance = planet1.position.distanceTo(planet2.position);
     double forceField = pow(10, forceFactor).toDouble() * planet2.mass / pow(distance, forceDistanceFactor);
     if (!attractive) {
-      forceField = - forceField;
+      forceField = -forceField;
     }
     double xDiff = (planet2.position.x - planet1.position.x).toDouble();
     double yDiff = (planet2.position.y - planet1.position.y).toDouble();
